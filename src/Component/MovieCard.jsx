@@ -25,10 +25,10 @@ function MovieCard(props) {
   };
 
   const opts = {
-    height: "390",
-    minwidth: "50%",
+    height: "360",
+    width:"100%",
     playerVars: {
-      autoplay: 1,
+      autoplay: 0,
     },
   };
 
@@ -53,7 +53,10 @@ function MovieCard(props) {
             />
           ))}
         </div>
-        <div className="mt-5 w-full flex justify-center">
+        
+      </section>
+      <section className="w-full flex justify-center">
+      <div className="mt-5 w-full lg:w-[50%]">
           {Urlid && (
             <YouTube
               opts={opts}
