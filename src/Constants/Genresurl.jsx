@@ -1,0 +1,20 @@
+import { API_KEY } from "./Urls";
+
+export const action = `discover/movie?api_key=${API_KEY}&with_genres=28`;
+export const comedy = `discover/movie?api_key=${API_KEY}&with_genres=35`;
+export const Horror = `discover/movie?api_key=${API_KEY}&with_genres=27`;
+export const Adventure = `discover/movie?api_key=${API_KEY}&with_genres=12`;
+export const Animation = `discover/movie?api_key=${API_KEY}&with_genres=16`;
+export const Crime = `discover/movie?api_key=${API_KEY}&with_genres=80`;
+export const Documentary = `discover/movie?api_key=${API_KEY}&with_genres=99`;
+export const Drama = `discover/movie?api_key=${API_KEY}&with_genres=18`;
+export const Fanatasy = `discover/movie?api_key=${API_KEY}&with_genres=14`;
+export const SciFI = `discover/movie?api_key=${API_KEY}&with_genres=878`;
+export const Thriller = `discover/movie?api_key=${API_KEY}&with_genres=53`;
+export const War = `discover/movie?api_key=${API_KEY}&with_genres=10770`;
+export const PopularSeries = `tv/popular?api_key=${API_KEY}`;
+export const TopRatedSeries = `tv/top_rated?api_key=${API_KEY}`;
+export const Trending = `trending/all/day?api_key=${API_KEY}`;
+export const Trendingseries = `trending/tv/day?api_key=${API_KEY}`;
+export const TrendingMovies = `trending/movie/day?api_key=${API_KEY}&language=en-US`;
+export const SeriesAiring = `tv/airing_today?api_key=${API_KEY}&language=en-US`;
