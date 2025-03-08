@@ -43,7 +43,7 @@ function MovieCard(props) {
             {props.title}
           </h1>
         </div>
-        <div className="flex overflow-scroll scrollbar-hide scroll-smooth min-h-[130px] gap-2">
+        <div style={{scrollbarWidth:  "none"}} className="flex overflow-scroll scrollbar-hide scroll-smooth min-h-[130px] gap-2">
           {movies.map((obj) => (
             <img
               onClick={() => wathTrailer(obj.id)}
